@@ -1,0 +1,6 @@
+{
+    "sketch": "Spaceship_interface.ino",
+    "board": "arduino:avr:uno",
+    "programmer": "arduino:avrisp",
+    "port":"COM4"
+}

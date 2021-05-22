@@ -1,0 +1,6 @@
+{
+    "sketch": "mood_cue.ino",
+    "board": "arduino:avr:uno",
+    "programmer": "arduino:avrisp",
+    "port": "COM4"
+}

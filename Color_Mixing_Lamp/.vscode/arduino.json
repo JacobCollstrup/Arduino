@@ -1,0 +1,6 @@
+{
+    "sketch": "color_mixing_lamp.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM4",
+    "programmer": "arduino:avrisp"
+}

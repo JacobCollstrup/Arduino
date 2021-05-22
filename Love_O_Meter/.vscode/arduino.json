@@ -1,0 +1,6 @@
+{
+    "sketch": "Love_O_Meter.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM4",
+    "programmer": "arduino:avrisp"
+}
