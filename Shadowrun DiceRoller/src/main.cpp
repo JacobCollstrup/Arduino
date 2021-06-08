@@ -29,11 +29,15 @@ void loop()
     {
       int dice1 = random(6) + 1;
       int dice2 = random(6) + 1;
+      String dice1_str = "Dice 1: ";
+      String dice2_str = "Dice 2: ";
+      String diceOneLine = dice1_str + dice1;
+      String diceTwoLine = dice2_str + dice2;
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("Dice 1: " + dice1);
+      lcd.print(diceOneLine);
       lcd.setCursor(0, 1);
-      lcd.print("Dice 2: " + dice2)
+      lcd.print(diceTwoLine);
     }
   }
   prevSwitchState = switchState;
