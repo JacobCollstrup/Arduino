@@ -8,7 +8,7 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 const int rollPin = 6;
 const int downDice = 7;
 const int upDice = 8;
-String switchState = 0;
+int switchState = 0;
 int prevSwitchState = 0;
 int reply;
 int numberDiceToRoll = 10;
